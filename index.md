@@ -4,7 +4,6 @@
         <body bgcolor="#FFF8DC"> <!--背景颜色-->
     <h1 align="center">我的个人简介</h1>
 <body background="我的照片/4757f55b02a29f700d0a3a2352c0a9d.jpg">
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -30,7 +29,7 @@
 
         <a href="file:///C:/Users/Ma-Dragon/Desktop/malong.html.html">详细信息</a>
     <hr />
-<ailgn="right"><div class="showTime">当前时间：2021年11月21-9时06分16秒</div>
+<div class="showTime">当前时间：2021年11月21-9时06分16秒</div>
 <script>
   var t = null;
   t = setTimeout(time, 1000); 
