@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+<html>
+<head></head>
+    <body>
+        <body bgcolor="#FFF8DC"> <!--背景颜色-->
+    <h1 align="center">我的个人简介</h1>
+<body background="我的照片/4757f55b02a29f700d0a3a2352c0a9d.jpg">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ma-Dragon</title>
+    </head>
 
-You can use the [editor on GitHub](https://github.com/Ma-Dragon/Ma-Dragon.GitHub.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+    <body style="padding: 20px;">
+        <marquee><span style="font-weight: bolder;font-size: 40px;color: white;">Welcom My PsWp</span></marquee>
+    </body>
+</html>
+<img src="我的照片/IMG_20211114_173144.jpg" width="200" height="310" align="right">
+    <p>姓名 ：马龙</p>
+    <p>英文名：Ma~Dragon</p>
+    <p>籍贯：宁夏</p>
+    <p>民族：回族</p>
+    <p>年龄 ：18</p>
+    <p>学历信息：2021- 厦门大学本科生</p>
+    <p>学号：22920212204182</p>
+    <p>兴趣爱好：热爱运动、乐于学习！</p>
+    <!--个人的网页搭建应该从简介、图片、联系方式等进行布局，力求设计一个美观大方的个人网页-->
+    <hr />
+    <p><font face="arial" color="red" font size="5">厦园新征程：</font></p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <a href="file:///C:/Users/Ma-Dragon/Desktop/malong.html.html">详细信息</a>
+    <hr />
+<ailgn="right"><div class="showTime">当前时间：2021年11月21-9时06分16秒</div>
+<script>
+  var t = null;
+  t = setTimeout(time, 1000); 
+  function time() {
+    clearTimeout(t); 
+    dt = new Date();
+    var y = dt.getFullYear();
+    var mt = dt.getMonth() + 1;
+    var day = dt.getDate();
+    var h = dt.getHours(); 
+    var m = dt.getMinutes(); 
+    var s = dt.getSeconds(); 
+    document.querySelector(".showTime").innerHTML =
+      "当前时间：" +
+      y +
+      "年" +
+      mt +
+      "月" +
+      day +
+      "-" +
+      h +
+      "时" +
+      m +
+      "分" +
+      s +
+      "秒";
+    t = setTimeout(time, 1000); //设定定时器，循环运行
+  }
+</script>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ma-Dragon/Ma-Dragon.GitHub.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <footer>
+        <p>Posted by: Ma~Dragon</p>
+        <p>Contact information: <a href="mailto:3468989546@qq.com">3468989546@qq.com</a>.</p>
+        <p>QQ:<a href="https://url.4rxb.com/s/spvndn">QQ</a></P>
+      </footer>
+        
+       <h5 align="center"><font color="white">背景图片为厦大本部白城海滩附近拍摄</font></h5>
+        </html>
