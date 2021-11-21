@@ -67,4 +67,3 @@
       </footer>
         
        <h5 align="center"><font color="white">背景图片为厦大本部白城海滩附近拍摄</font></h5>
-        </html>
